@@ -12,7 +12,7 @@ You may log in with couple of usernames and passwords stated below. Creating you
 | js            | 1111          |
 | jd            | 2222          |
 | stw           | 3333          |
-| sx            | 4444          |
+| ss            | 4444          |
 
 ## NOTE
 
