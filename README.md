@@ -8,6 +8,7 @@ You may log in with couple of usernames and passwords stated below. Creating you
 
 ## Login data
 | User | PIN | --
+
 | js | 1111 |
 | jd  | 2222  |
 | stw  | 3333   |
