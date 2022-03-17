@@ -285,36 +285,12 @@ btnCreateAcc.addEventListener("click", function(e) {
 
 btnLogOut.addEventListener("click", function(e) {
   e.preventDefault();
-  location.reload();
+  containerApp.style.opacity = 0;
+  labelWelcome.textContent = ""; 
   btnLogOut.classList.add("hidden");
 }, false)
 
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-// LECTURES
 
-// const currencies = new Map([
-//   ['USD', 'United States dollar'],
-//   ['EUR', 'Euro'],
-//   ['GBP', 'Pound sterling'],
-// ]);
-
-// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
-
-// const overallBalanceNicer = accounts.flatMap(e => e.movements).reduce((a,e) => a + e);
-// console.log(overallBalanceNicer);
-
-
-// array.from transformuje nodelist (text, štruktura v html v ktorej su data) na array, druhym argumentom je callback funkcia ktora vykona
-// zvolenu operaciu na všetky prvky novovzniknutej array
-
-labelBalance.addEventListener("click", function() {
-  const movementsUI = Array.from(document.querySelectorAll(".movements__value"),
-  (e => Number(e.textContent.replace("€", "")))
-  );
-
-  console.log(movementsUI);
-})
 
 
 
