@@ -18,8 +18,6 @@ You may log in with couple of usernames and passwords stated below. Creating you
 
 Refreshing the page will cause losing of all changes made, for checking on transfer functionality, you must log out/log in properly without reloading, otherwise the settings will become default.
 
-Application is still under construction and there are few things yet to be added.
-
 ## Link
 
 https://bankist-app-mj.netlify.app/
